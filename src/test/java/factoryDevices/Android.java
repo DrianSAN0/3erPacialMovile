@@ -14,7 +14,7 @@ public class Android implements IDevice{
     public AppiumDriver create() {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("appium:deviceName","UPBv9");
+        capabilities.setCapability("appium:deviceName","UPBV9");
         capabilities.setCapability("appium:platformVersion","9.0");
         capabilities.setCapability("appium:appPackage","com.vrproductiveapps.whendo");
         capabilities.setCapability("appium:appActivity","com.vrproductiveapps.whendo.ui.HomeActivity");
